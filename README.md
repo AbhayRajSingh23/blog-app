@@ -40,12 +40,12 @@ blog-app/
 ### 2. Install dependencies
 
 ```bash
-npm install
+npm i
 ```
 ### 3. Start the development server
 
 ```bash
-node app.jz
+node app.js
 ```
 ### 4. Visit the app
 
