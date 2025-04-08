@@ -34,7 +34,7 @@ blog-app/
 
 ### 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/blog-app.git
+   git clone https://github.com/abhayrajsingh23/blog-app.git
    cd blog-app
 ```
 ### 2. Install dependencies
