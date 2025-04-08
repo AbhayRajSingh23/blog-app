@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/styles.css" />
+  <title>Edit Post</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Edit Post</h1>
+    <form action="/edit/<%= post.id %>" method="POST" class="create-form">
+      <input type="text" name="title" value="<%= post.title %>" required />
+      <textarea name="content" required><%= post.content %></textarea>
+      <button type="submit">Save Changes</button>
+      <a href="/" class="back-link">Back to Home</a>
+    </form>
+  </div>
+</body>
+</html>
